@@ -68,7 +68,7 @@ public class MainActivity extends Activity {
         if (null != googleMap) {
 
 
-            googleMap.setMapType(GoogleMap.MAP_TYPE_NORMAL);
+            googleMap.setMapType(GoogleMap.MAP_TYPE_HYBRID);
             googleMap.setMyLocationEnabled(true);
             googleMap.setTrafficEnabled(true);
             googleMap.setIndoorEnabled(true);
